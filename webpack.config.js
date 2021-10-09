@@ -55,10 +55,10 @@ module.exports = {
     },
     plugins: [
         new miniCss({
-            filename: 'style.css',
+            filename: 'style.bundle.css',
         }),
         new HtmlWebpackPlugin({
-            filename: 'index.html',
+            filename: 'index.bundle.html',
             template: 'src/assets/template.html'
         })
     ]
